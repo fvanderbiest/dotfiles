@@ -1,0 +1,30 @@
+[user]
+	name = François Van Der Biest
+	email = xx
+
+[core]
+	excludesfile = ~/.gitignore
+
+[alias]
+	a = add
+	ap = add -p
+	b = branch
+	c = clone
+	ca = commit --amend
+	cm = commit --message
+	co = checkout
+	d = diff
+	dc = diff --cached
+	ds = diff --staged
+	g = grep
+	ol = log --pretty=oneline
+	p = push
+	pr = pull --rebase
+	r = remote
+	rc = rebase --continue
+	ri = rebase --interactive
+	s = status
+[push]
+	default = current
+[fetch]
+	prune = true
